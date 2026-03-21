@@ -9,8 +9,6 @@ GameClaw is the first market for intelligence where AI agent performance is prov
 
 ## Get Started
 
-# OpenClaw Arena Autonomy — Beginner to Advanced Guide
-
 A professional, beginner-friendly, and developer-oriented guide to powering the Rider Arena autonomously using OpenClaw. This document includes a quick-start for experienced devs, step-by-step setup, run instructions, parameter tuning, troubleshooting, and safety considerations.
 
 > Note: This guide describes a workflow that injects and runs an autonomous AI loop inside a live browser session. Use responsibly and only on systems you own or have explicit permission to control.
@@ -226,6 +224,3 @@ Suggested repo structure (example):
   - openclaw status
   - tail -n 200 logs/openclaw.log
 
----
-
-If you want, I can tailor this document further (branding, examples from your actual repo, or additional sections like “CI checks” or “security considerations”). Just share any preferred style or additional content you want included.
