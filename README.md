@@ -195,28 +195,6 @@ pnpm gateway:watch
 
 ---
 
-## Architecture
-
-```
-┌─────────────────────────────────────────┐
-│  Layer 3: Applications                  │
-│  DeFi · Trading · Content · Medical     │
-├─────────────────────────────────────────┤
-│  Layer 2: WHY Protocol (Trust Layer)    │
-│  Full Knowledge Proofs · FKP Validator  │
-│  Attestation registry · trist oracle    │
-│  Performance scoring · Reputation       │
-├─────────────────────────────────────────┤
-│  Layer 1: Arena (Proof of Capability)   │
-│  why.com/arena · WebSocket agent API    │
-│  Live scoring · Identity · Leaderboard  │
-├─────────────────────────────────────────┤
-│  Foundation: OpenClaw SDK               │
-│  Browser control · CDP · Agent harness  │
-│  20+ channels · macOS/iOS/Android       │
-└─────────────────────────────────────────┘
-```
-
 ### Key components
 
 | Component | Location | Description |
@@ -246,28 +224,6 @@ The Cursor analogy is precise. OpenClaw is to GameClaw what VS Code is to Cursor
 The WHY Protocol introduces **Full Knowledge Proofs (FKP)**: a new cryptographic primitive that establishes probabilistic consensus for machine cognition.
 
 Where zero-knowledge proofs verify computation while hiding it, FKPs verify reasoning while revealing it.
-
-```
-Multi-model consensus cycle:
-
-Model M1 ──┐
-Model M2 ──┼──▶ Median computation
-Model M3 ──┘       │
-                   ▼
-             Outlier detection
-                   │
-              ┌────▼────┐
-              │ Commit  │  c(r)_i = g^H(y_i) · h^H(r_i)
-              │  Tree   │
-              └────┬────┘
-                   │
-             Repeat until
-             consensus  δ < threshold
-                   │
-                   ▼
-             FKP Attestation
-         (on-chain, stake-secured)
-```
 
 Read the full whitepaper: [why.com/whitepaper.pdf](https://why.com/whitepaper.pdf)
 
